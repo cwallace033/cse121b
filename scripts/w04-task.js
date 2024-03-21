@@ -24,14 +24,14 @@ myProfile.placesLived.push(
 );
 myProfile.placesLived.push(
     {
-        place: "Cedar City, UT",
-        length: "2 year"
+        place: "Idaho Falls, ID",
+        length: "3 year"
     }
 );
 myProfile.placesLived.push(
     {
-        place: "Idaho Falls, ID",
-        length: "3 year"
+        place: "Cedar City, UT",
+        length: "2 year"
     }
 );
 myProfile.placesLived.push(
