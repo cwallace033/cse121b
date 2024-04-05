@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Random Quote Generator">
+        <meta name="keywords" content="HTML,CSS,JavaScript, Quotes, API">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Random Quote Generator</title>
+        <link rel="stylesheet" href="styles/project.css">
+    </head>
+<body>
+    <nav>
+        <ul id="menu">
+            <li><a id="toggleMenu">&equiv;</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="w01-task.html">W1 Task</a></li>
+            <li><a href="w03-task.html">W3 Task</a></li>
+            <li><a href="w04-task.html">W4 Task</a></li>
+            <li><a href="w05-task.html">W5 Task</a></li>
+            <li><a href="project.html"class="active">Project</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>
+        <i class="fas fa-quote-left"></i>
+        <span class="quote" id="quote"></span>
+        <i class="fas fa-quote-right"></i>
+        </h1>
+        <p class="author" id="author"></p>
+        
+        <hr/>
+        <div class="buttons">
+            <button class="likes" type="button" onclick="numOfLikes()">Like</button>
+            <p>Likes: <a id="likes">0</a></p>
+            <button class="next" onclick="getNewQuote()">Next quote</button>
+        </div>
+    </div>
+    <footer>
+        &copy;<span id="year"></span> | Week 06 - Quote Generator | CSE 121b
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+    <script src="scripts/w06-task.js"></script>
+</body>
+</html>
