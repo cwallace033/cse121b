@@ -1,7 +1,4 @@
-
-
-
-const getNewQuote = async => {
+const displayQuote = async => {
     const options = {
         method: 'GET',
         headers: { 'x-api-key': 'AAsdHy+UXMkyZL10PoJKEA==LzJ13yxvIi7Zmbz1' }
@@ -36,4 +33,4 @@ const getNewQuote = async => {
             document.getElementById("likes").innerHTML = likes;
         };
     
-    getNewQuote()
+    displayQuote()
